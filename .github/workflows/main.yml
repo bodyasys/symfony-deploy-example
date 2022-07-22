@@ -13,7 +13,7 @@ jobs:
         with:
           php-version: '7.4'
           coverage: none
-          tools: composer:v2
+          tools: composer:v1
           extensions: mbstring, xml, ctype, iconv, intl, pdo_sqlite, dom, filter, gd, iconv, json, mbstring, pdo
         env:
           update: true
